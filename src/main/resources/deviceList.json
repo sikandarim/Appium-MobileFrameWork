@@ -1,0 +1,20 @@
+{
+  "android": {
+    "platformName": "Android",
+    "deviceName": "emulator-5554",
+    "automationName": "UiAutomator2",
+    "appPackage": "com.swaglabsmobileapp",
+    "appActivity": "com.swaglabsmobileapp.MainActivity",
+    "noReset": false,
+    "newCommandTimeout": 300
+  },
+  "ios": {
+    "platformName": "iOS",
+    "deviceName": "iPhone 16",
+    "platformVersion": "18.1",
+    "automationName": "XCUITest",
+    "bundleId": "com.saucelabs.SwagLabsMobileApp",
+    "noReset": false,
+    "newCommandTimeout": 300
+  }
+}

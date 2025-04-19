@@ -1,0 +1,34 @@
+{
+  "username": {
+    "type": "accessibilityId",
+    "value": "test-Username"
+  },
+  "password": {
+    "type": "accessibilityId",
+    "value": "test-Password"
+  },
+  "loginBtn": {
+    "type": "accessibilityId",
+    "value": "test-LOGIN"
+  },
+  "shoppingCart": {
+    "type": "iosClassChain",
+    "value": "**/XCUIElementTypeOther[`name == \"test-Cart\"`]/XCUIElementTypeOther"
+  },
+  "login_button": {
+    "type": "id",
+    "value": "com.example.android:id/login"
+  },
+  "username_input": {
+    "type": "xpath",
+    "value": "//android.widget.EditText[@content-desc='username']"
+  },
+  "ios_username": {
+    "type": "iosClassChain",
+    "value": "**/XCUIElementTypeTextField[`label == 'Username'`]"
+  },
+  "ios_login_button": {
+    "type": "iosNsPredicate",
+    "value": "label == 'LOGIN' AND type == 'XCUIElementTypeButton'"
+  }
+}

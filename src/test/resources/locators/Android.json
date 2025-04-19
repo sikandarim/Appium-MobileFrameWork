@@ -1,0 +1,42 @@
+{
+  "username": {
+    "type": "accessibilityId",
+    "value": "test-Username"
+  },
+  "password": {
+    "type": "accessibilityId",
+    "value": "test-Password"
+  },
+  "loginBtn": {
+    "type": "accessibilityId",
+    "value": "test-LOGIN"
+  },
+  "shoppingCart": {
+    "type": "androidUIAutomator",
+    "value": "new UiSelector().className(\"android.widget.ImageView\").instance(3)"
+  },
+    "add_task_button": {
+        "type": "accessibilityId",
+        "value": "add_task_button"
+    },
+  "add_task": {
+    "type": "accessibilityId",
+    "value": "add_task"
+  },
+  "login_button": {
+    "type": "id",
+    "value": "com.example.android:id/login"
+  },
+  "username_input": {
+    "type": "xpath",
+    "value": "//android.widget.EditText[@content-desc='username']"
+  },
+  "password_input": {
+    "type": "classname",
+    "value": "android.widget.EditText"
+  },
+  "scroll_to_item": {
+    "type": "androidUIAutomator",
+    "value": "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Item\"));"
+  }
+}

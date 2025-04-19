@@ -1,0 +1,9 @@
+{
+  "login": {
+    "standard_user": {
+      "comment": "This is used for Standard User",
+      "username": "standard_user",
+      "password": "secret_sauce"
+    }
+  }
+}
